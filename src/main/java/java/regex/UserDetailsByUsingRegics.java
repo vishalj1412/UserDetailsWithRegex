@@ -9,7 +9,6 @@ public class UserDetailsByUsingRegics{
 	   boolean result=match.matches();
 		return result;
 	
-	}
-	
+	}	
 	
 }
