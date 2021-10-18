@@ -8,8 +8,10 @@ class UserRegistrationTest {
         public void Test() {
 
             UserRegistration obj=new UserRegistration();
+            //test case for firstname
             assertTrue(obj.FirstName("Vishal"));
-            //assertTrue(obj.LastName("Jagtap"));
+            //test case for lastname
+            assertTrue(obj.LastName("Jagtap"));
 
         }
     }
