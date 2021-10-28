@@ -26,4 +26,22 @@ public class UserValidationTest {
 
         Assert.assertTrue(emailvalidation.emailValidation("mkgandhi007@gmail.com"));
     }
+    /*
+    test case for mobile number.
+     */
+    @Test
+    public void givenMobileNumberValidation() {
+        UserRegistrationValidation validation = new UserRegistrationValidation();
+
+        Assert.assertTrue(validation.mobileNumberValidation("+918882695710"));
+    }
+    /*
+    test case for password
+     */
+    @Test
+    public void givenPasswordValidation() {
+        UserRegistrationValidation validation = new UserRegistrationValidation();
+
+        Assert.assertTrue(validation.passwordValidation("qw1rt@Ms"));
+    }
     }
